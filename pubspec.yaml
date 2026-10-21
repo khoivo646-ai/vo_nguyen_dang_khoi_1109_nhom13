@@ -1,0 +1,32 @@
+name: vo_nguyen_dang_khoi_1109_nhom13
+description: "Ứng dụng quản lý điện thoại trẻ em KidGuard - Nhóm 13"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.6.0
+  jwt_decoder: ^2.0.1
+  flutter_dotenv: ^6.0.1
+  shared_preferences: ^2.5.6
+  local_auth: ^3.0.2
+  geolocator: ^14.1.2
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  url_launcher: ^6.3.3
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
